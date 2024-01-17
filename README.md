@@ -1,6 +1,21 @@
 # Projet 6 OpenClassrooms Data Scientist : Classifiez automatiquement des biens de consommation
 ## Créé par Agnès Regaud
 ## Sujet
+Vous êtes Data Scientist au sein de l’entreprise "Place de marché”, qui souhaite lancer une marketplace e-commerce.
+Sur la "place de marché", des vendeurs proposent des articles à des acheteurs en postant une photo et une description.
+
+Pour l'instant, l'attribution de la catégorie d'un article est effectuée manuellement par les vendeurs, et est donc peu fiable. De plus, le volume des articles est pour l’instant très petit.
+
+Pour rendre l’expérience utilisateur des vendeurs (faciliter la mise en ligne de nouveaux articles) et des acheteurs (faciliter la recherche de produits) la plus fluide possible, et dans l'optique d'un passage à l'échelle, il devient nécessaire d'automatiser cette tâche.
+
+Linda, Lead Data Scientist, vous demande donc d'étudier la faisabilité d'un moteur de classification des articles en différentes catégories, avec un niveau de précision suffisant.
+
+La première mission est de réaliser, une étude de faisabilité d'un moteur de classification d'articles, basé sur une image et une description, pour l'automatisation de l'attribution de la catégorie de l'article.
+
+La 2ème mission est de réaliser une classification supervisée à partir des images ? Je souhaiterais que tu mettes en place une data augmentation afin d’optimiser le modèle.
+
+Enfin, l'entreprise souhaite élargir sa gamme de produits, en particulier dans l’épicerie fine. Il faut donc tester la collecte de produits à base de “champagne” via une API fournie en fournissant une extraction de 10 produits dans un fichier csv contenant pour chaque produit les données suivantes : foodId, label, category, foodContentsLabel, image.
+
 ## Objectifs du projet :
 - Prétraitement données textes (nettoyage, tokeniser, stemmer, lemmatiser)
 - Construction de features : bag-of-words, Tf-idf, Word2Vec, BERT, USE
